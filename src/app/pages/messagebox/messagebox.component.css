@@ -1,0 +1,17 @@
+.messagebox{
+    width:300px;
+    position: fixed;
+    z-index: 10;
+    right:10px;
+    bottom: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    opacity: 0.8;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px white;
+    display: none;
+}
+.messagebox-close{
+    margin-left:270px;
+    margin-top: 5px;
+}
