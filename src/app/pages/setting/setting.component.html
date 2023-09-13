@@ -1,0 +1,57 @@
+<!-- setting -->
+<div class="setting" id="setting" onclick="settingfunction()" (click)="settingfunction()">
+    <img class="img-setting" id="img-setting" src="assets/images/icon/setting.png" alt="setting" width="50">
+</div>
+<!-- page -->
+<div class="page" id="page">
+    <!-- page-setting -->
+    <div class="page-setting" id="page-setting">
+        <!-- nightmode-page-setting -->
+        <div class="nightmode-page-setting" id="nightmode-page-setting" onclick="nightmodepagesettingfunction()">
+            <img class="img-nightmode-page-setting" id="img-nightmode-page-setting"
+                src="assets/images/icon/night-mode.png" alt="night-mode">
+            <div class="nightmode-nightmode-page-setting" id="nigthmode-nightmode-page-setting">
+                {{'setting.nightmode'|translate}}</div>
+        </div>
+        <!-- language-page-setting -->
+        <div class="language-page-setting" id="language-page-setting">
+            <!-- selected-language-page-setting -->
+            <div class="selected-language-page-setting" id="selected-language-page-setting"
+                onclick="selectedlanguagepagesettingfunction()" >
+                <img class="img-selected-language-page-setting" id="img-selected-language-page-setting"
+                    src="assets/images/icon/language.png" alt="language">
+                <div class="lang-selected-language-page-setting" id="lang-selected-language-page-setting">
+                    {{'setting.lang'|translate}}</div>
+                <div class="language-selected-language-page-setting" id="language-selected-language-page-setting">
+                    {{'setting.language'|translate}}</div>
+            </div>
+
+            <!-- select-language-page-setting -->
+            <div class="select-language-page-setting" id="select-language-page-setting">
+                <div class="english-select-language-page-setting" id="english-select-language-page-setting"
+                    (click)="englishlanguagebutton()">
+                    <img class="img-english-select-language-page-setting" id="img-english-select-language-page-setting"
+                        src="assets/images/icon/english.png" alt="english">
+                    <div class="english-english-select-language-page-setting"
+                        id="english-english-select-language-page-setting">{{'setting.english'|translate}}</div>
+                </div>
+                <hr>
+                <div class="persian-select-language-page-setting" id="persian-select-language-page-setting"
+                    (click)="persianlanguagebutton()">
+                    <img class="img-persian-select-language-page-setting" id="img-persian-select-language-page-setting"
+                        src="assets/images/icon/persian.png" alt="persian">
+                    <div class="persian-persian-select-language-page-setting"
+                        id="persian-persian-select-language-page-setting">{{'setting.persian'|translate}}</div>
+                </div>
+                <hr>
+                <div class="germany-select-language-page-setting" id="germany-select-language-page-setting"
+                    (click)="germanylanguagebutton()">
+                    <img class="img-germany-select-language-page-setting" id="img-germany-select-language-page-setting"
+                        src="assets/images/icon/germany.png" alt="persian">
+                    <div class="germany-germany-select-language-page-setting"
+                        id="germany-germany-select-language-page-setting">{{'setting.germany'|translate}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

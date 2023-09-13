@@ -1,0 +1,33 @@
+{
+    "header": {
+        "mahyarniknaddaf": "Mahyar Niknaddaf",
+        "home": "خانه",
+        "projects": "پروژه ها",
+        "aboutus": "درباره ما",
+        "contactus": "ارتباط با ما"
+    },
+    "body": {
+        "projects": {
+            "programmings": "برنامه نویسی",
+            "lightings": "نورپردازی",
+            "programming": {},
+            "lighting": {}
+        },
+        "notfound": {},
+        "home": {},
+        "aboutus": {},
+        "contactus": {}
+    },
+    "footer": {
+        "mahyarniknaddaf": "MAHYARNIKNADDAF",
+        "allrights": "© ۱۴۰۲ تمامی حقوق مادی و معنوی این سایت متعلق به مهیار نیک نداف می‌باشد"
+    },
+    "setting": {
+        "nightmode": "حالت تاریک",
+        "language": "زبان",
+        "lang": "persian",
+        "english": "انگلیسی",
+        "persian": "فارسی",
+        "germany": "آلمانی"
+    }
+}

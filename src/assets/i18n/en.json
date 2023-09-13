@@ -1,0 +1,33 @@
+{
+    "header": {
+        "mahyarniknaddaf": "Mahyar Niknaddaf",
+        "home": "Home",
+        "projects": "Projects",
+        "aboutus": "About Us",
+        "contactus": "Contact Us"
+    },
+    "body": {
+        "projects": {
+            "programmings": "Programming",
+            "lightings": "Lighting",
+            "programming": {},
+            "lighting": {}
+        },
+        "notfound": {},
+        "home": {},
+        "aboutus": {},
+        "contactus": {}
+    },
+    "footer": {
+        "mahyarniknaddaf": "MAHYARNIKNADDAF",
+        "allrights": "© 2023 All material and moral rights of this site belong to Mahyar Niknaddaf"
+    },
+    "setting": {
+        "nightmode": "NightMode",
+        "language": "Language",
+        "lang": "English",
+        "english": "English",
+        "persian": "Persian",
+        "germany": "Germany"
+    }
+}
