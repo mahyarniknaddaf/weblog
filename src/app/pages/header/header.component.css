@@ -1,88 +1,92 @@
 .header {
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
     position: fixed;
     z-index: 1;
-    left: 0;
     top: 20px;
     background-color: rgba(255, 153, 0, 0.612);
     border-radius: 30px;
 }
 
-
-a:hover {
-    text-shadow: 0px 0px 10px ;
+.header-items {
 }
 
-
-
-.header-home,
-.header-aboutus,
-.header-projects,
-.header-contactus {
-    float: left;
-    font-size: 15px;
-    font-weight: 900;
+.header-items-home,
+.header-items-aboutus,
+.header-items-projects,
+.header-items-contactus {
 }
 
 
 @media screen and (max-width:576px) {
-    .header-home {
-        margin-left: 20%;
+    
+    .header-items {
+        width: 90%;
+        margin-left: 5%;
     }
 
-    .header-aboutus,
-    .header-projects,
-    .header-contactus {
-        margin-left: 30px;
+    .header-items-home,
+    .header-items-aboutus,
+    .header-items-projects,
+    .header-items-contactus {
+        margin-left: 4%;
     }
 }
 
 @media screen and (min-width:576px) {
-    .header-home {
-        margin-left: 30%;
+    .header-items {
+        width: 70%;
+        padding-left: 15%;
     }
 
-    .header-aboutus,
-    .header-projects,
-    .header-contactus {
-        margin-left: 30px;
+    .header-items-home,
+    .header-items-aboutus,
+    .header-items-projects,
+    .header-items-contactus {
+        margin-left: 6%;
     }
 }
 
 @media screen and (min-width:768px) {
-    .header-home {
-        margin-left: 35%;
+    .header-items {
+        width: 60%;
+        padding-left: 20%;
     }
 
-    .header-aboutus,
-    .header-projects,
-    .header-contactus {
-        margin-left: 30px;
+    .header-items-home,
+    .header-items-aboutus,
+    .header-items-projects,
+    .header-items-contactus {
+        margin-left: 8%;
     }
 }
 
 @media screen and (min-width:992px) {
-    .header-home {
-        margin-left: 40%;
+    .header-items {
+        width: 50%;
+        padding-left: 25%;
     }
 
-    .header-aboutus,
-    .header-projects,
-    .header-contactus {
-        margin-left: 30px;
+    .header-items-home,
+    .header-items-aboutus,
+    .header-items-projects,
+    .header-items-contactus {
+        margin-left: 10%;
     }
 }
 
 @media screen and (min-width:1200px) {
-    .header-home {
-        margin-left: 40%;
+    .header-items {
+        width: 40%;
+        padding-left: 30%;
     }
 
-    .header-aboutus,
-    .header-projects,
-    .header-contactus {
-        margin-left: 30px;
+    .header-items-home,
+    .header-items-aboutus,
+    .header-items-projects,
+    .header-items-contactus {
+        margin-left: 10%;
     }
 }

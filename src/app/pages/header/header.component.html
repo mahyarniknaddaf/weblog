@@ -1,13 +1,11 @@
 <div class="header" id="header">
-    <div class="header-home" id="header-home"><a [routerLink]="['/']">{{"header.home"|translate}}</a>
-    </div>
-    <div class="header-projects" id="header-projects">
-        <a [routerLink]="['/projects']"> {{"header.projects"|translate}}</a>
-    </div>
-    <div class="header-aboutus" id="header-aboutus"><a [routerLink]="['/aboutus']">{{"header.aboutus"|translate}}</a>
-    </div>
-
-    <div class="header-contactus" id="header-contactus"><a
+    <div class="header-items" id="header-items">
+        <a class="header-items-home" id="header-items-home" [routerLink]="['/']">{{"header.home"|translate}}</a>
+        <a class="header-items-projects" id="header-items-projects" [routerLink]="['/projects']">
+            {{"header.projects"|translate}}</a>
+        <a class="header-items-aboutus" id="header-items-aboutus"
+            [routerLink]="['/aboutus']">{{"header.aboutus"|translate}}</a>
+        <a class="header-items-contactus" id="header-items-contactus"
             [routerLink]="['/contactus']">{{"header.contactus"|translate}}</a>
     </div>
 </div>

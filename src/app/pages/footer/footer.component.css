@@ -1,82 +1,92 @@
 .footer {
     width: 100%;
     position: relative;
-    background-color:rgba(255, 153, 0, 0.612);
+    background-color: rgba(255, 153, 0, 0.612);
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
-.footer-icon {
-    width: 40%;
-    margin-top: 2%;
-    margin-left: 30%;
-}
+.footer-icon {}
 
 .footer-icon-img-instagram,
-.footer-icon-img-github {
+.footer-icon-img-github,
+.footer-icon-img-email,
+.footer-icon-img-telegram {
     width: 30px;
+
 }
 
-.footer-icon-img-email {
-    width: 30px;
-    margin-left: 25px;
-    margin-right: 25px;
-}
 
-.footer-manufacturer {
-    text-align: center;
-    font-weight: 900;
-    letter-spacing: 20px;
-}
-
-.footer-allrights {
-    text-align: center;
-    font-weight: 400;
-    font-size: 15px;
-}
 
 @media screen and (max-width:576px) {
-    .footer-icon-img-instagram {
-        margin-left: 15%;
+    .footer-icon {
+        width: 40%;
+        padding-left: 30%;
+        padding-right: 30%;
     }
-
     .footer-manufacturer {
+        text-align: center;
+        font-weight: 900;
         letter-spacing: 10px;
     }
-
+    
     .footer-allrights {
+        text-align: center;
+        font-weight: 400;
         font-size: 10px;
     }
 }
 
 @media screen and (min-width:576px) {
-    .footer-icon-img-instagram {
-        margin-left: 20%;
+    .footer-icon {
+        width: 30%;
+        padding-left: 35%;
+        padding-right: 35%;
     }
-
     .footer-manufacturer {
-        letter-spacing: 10px;
+        text-align: center;
+        font-weight: 900;
+        letter-spacing: 15px;
+    }
+    
+    .footer-allrights {
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
     }
 }
 
 @media screen and (min-width:768px) {
-    .footer-icon-img-instagram {
-        margin-left: 30%;
+    .footer-icon {
+        width: 20%;
+        padding-left: 40%;
+        padding-right: 40%;
     }
-
     .footer-manufacturer {
+        text-align: center;
+        font-weight: 900;
         letter-spacing: 20px;
+    }
+    
+    .footer-allrights {
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
     }
 }
 
 @media screen and (min-width:992px) {
-    .footer-icon-img-instagram {
-        margin-left: 30%;
+    .footer-icon {
+        width: 10%;
+        padding-left: 45%;
+        padding-right: 45%;
     }
 }
 
 @media screen and (min-width:1200px) {
-    .footer-icon-img-instagram {
-        margin-left: 40%;
+    .footer-icon {
+        width: 10%;
+        padding-left: 45%;
+        padding-right: 45%;
     }
 }
