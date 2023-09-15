@@ -1,9 +1,9 @@
 <div class="projects" id="projects">
     <div class="projects-items" id="projects-items">
-        <div class="projects-items-programming" id="projects-items-programming"><a
-                [routerLink]="['/projects/']">{{'body.projects.programmings'|translate}}</a></div>
-        <div class="projects-items-lighting" id="projects-items-lighting"><a
-                [routerLink]="['/projects/lighting']">{{'body.projects.lightings'|translate}}</a></div>
+        <a class="projects-items-programming" id="projects-items-programming"
+            [routerLink]="['/projects/']">{{'body.projects.programmings'|translate}}</a>
+        <a class="projects-items-lighting" id="projects-items-lighting"
+            [routerLink]="['/projects/lighting']">{{'body.projects.lightings'|translate}}</a>
     </div>
     <div class="projects-outlet" id="projects-outlet">
         <router-outlet></router-outlet>

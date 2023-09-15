@@ -1,7 +1,9 @@
 .footer {
     width: 100%;
     position: relative;
-    background-color: rgba(255, 153, 0, 0.612);
+    background-image: url('/assets/images/background-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -24,12 +26,13 @@
         padding-left: 30%;
         padding-right: 30%;
     }
+
     .footer-manufacturer {
         text-align: center;
         font-weight: 900;
         letter-spacing: 10px;
     }
-    
+
     .footer-allrights {
         text-align: center;
         font-weight: 400;
@@ -43,12 +46,13 @@
         padding-left: 35%;
         padding-right: 35%;
     }
+
     .footer-manufacturer {
         text-align: center;
         font-weight: 900;
         letter-spacing: 15px;
     }
-    
+
     .footer-allrights {
         text-align: center;
         font-weight: 400;
@@ -62,12 +66,13 @@
         padding-left: 40%;
         padding-right: 40%;
     }
+
     .footer-manufacturer {
         text-align: center;
         font-weight: 900;
         letter-spacing: 20px;
     }
-    
+
     .footer-allrights {
         text-align: center;
         font-weight: 400;
