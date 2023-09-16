@@ -1,20 +1,19 @@
-
 var messagebox;
 var messageboxmessage;
 
-
 messagebox = document.getElementById('messagebox');
+
 setInterval(timemessageboxclose, 5000);
 function timemessageboxclose() {
     messagebox = document.getElementById('messagebox');
     messagebox.style.display = "none";
 }
 
-
 function messageboxclosefunction() {
     messagebox = document.getElementById('messagebox');
     messagebox.style.display = "none";
 }
+
 window.addEventListener('load', loadfunction);
 window.addEventListener('online', onlinefunction);
 window.addEventListener('offline', offlinefunction);
