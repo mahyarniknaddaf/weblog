@@ -6,31 +6,27 @@
     position: fixed;
     z-index: 1;
     top: 20px;
-    background-color: rgba(255, 153, 0, 0.612);
-    background-image: url('/assets/images/background-1.jpg');
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-color: rgb(255, 166, 0);
     border-radius: 30px;
-    
+
 }
 
-a:hover{
+a:hover {
     padding-bottom: 2px;
-    border-bottom:3px solid white ;
+    border-bottom: 3px solid white;
     color: white;
 }
-.header-items {
-}
+
+.header-items {}
 
 .header-items-home,
 .header-items-aboutus,
 .header-items-projects,
-.header-items-contactus {
-}
+.header-items-contactus {}
 
 
 @media screen and (max-width:576px) {
-    
+
     .header-items {
         width: 90%;
         margin-left: 5%;

@@ -1,9 +1,7 @@
 .footer {
     width: 100%;
     position: relative;
-    background-image: url('/assets/images/background-1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+   background-color: rgb(255, 166, 0);
     padding-top: 10px;
     padding-bottom: 20px;
 }

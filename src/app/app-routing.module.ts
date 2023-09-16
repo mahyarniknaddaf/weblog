@@ -4,9 +4,9 @@ import { HomeComponent } from './pages/body/home/home.component';
 import { AboutusComponent } from './pages/body/aboutus/aboutus.component';
 import { ProjectsComponent } from './pages/body/projects/projects.component';
 import { ContactusComponent } from './pages/body/contactus/contactus.component';
-import { NotfoundComponent } from './pages/body/notfound/notfound.component';
 import { LightingComponent } from './pages/body/projects/lighting/lighting.component';
 import { ProgrammingComponent } from './pages/body/projects/programming/programming.component';
+import { NotfoundComponent } from './pages/body/notfound/notfound.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },

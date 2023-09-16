@@ -16,8 +16,9 @@ import { ProjectsComponent } from './pages/body/projects/projects.component';
 import { ContactusComponent } from './pages/body/contactus/contactus.component';
 import { ProgrammingComponent } from './pages/body/projects/programming/programming.component';
 import { LightingComponent } from './pages/body/projects/lighting/lighting.component';
-import { NotfoundComponent } from './pages/body/notfound/notfound.component';
 import { MessageboxComponent } from './pages/messagebox/messagebox.component';
+import { NotfoundComponent } from './pages/body/notfound/notfound.component';
+import { LoadingComponent } from './pages/loading/loading.component';
 
 export function createtranslateloader(http:HttpClient){
   return new TranslateHttpLoader(http);
@@ -38,6 +39,7 @@ export function createtranslateloader(http:HttpClient){
     LightingComponent,
     NotfoundComponent,
     MessageboxComponent,
+    LoadingComponent,
     
     
   ],

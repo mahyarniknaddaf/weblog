@@ -1,8 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-*{
+* {
     text-decoration: none;
     color: black;
 }
-body{
-      background-color: black;
+
+body {
+    background-image: url('assets/images/background/3672215.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
